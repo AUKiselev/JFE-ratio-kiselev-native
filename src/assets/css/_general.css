@@ -1,0 +1,68 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content-wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 30px 25px 25px;
+}
+
+/* Typography */
+.text-link {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #000000;
+
+  text-decoration: none;
+}
+
+.text-link--active {
+  font-weight: 700;
+}
+
+.headline-2 {
+  font-size: 42px;
+  line-height: 57px;
+  font-weight: 700;
+  color: #1C1C1C;
+}
+
+.article-headline {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.headline-3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 33px;
+  line-height: 41px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.text-content {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.label {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #1C1C1C80;
+}
+
+.text-info {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #1C1C1C80;
+}

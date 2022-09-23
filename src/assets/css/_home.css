@@ -1,0 +1,132 @@
+.main-content {
+  margin-top: 40px;
+}
+
+.title-block {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.block__bg {
+  min-height: 600px;
+  width: 100%;
+  height: auto;
+}
+
+.block__content {
+  position: absolute;
+  max-width: 510px;
+  padding: 75px 40px;
+  background-color: #FFFFFF;
+}
+
+.title-block__content {
+  top: 0;
+  bottom: 110px;
+  left: 45px;
+}
+
+.title-block__content-title {
+  margin-bottom: 12px;
+}
+
+.title-block__content-info {
+  margin-bottom: 15px;
+}
+
+.title-block__date::before {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  margin: 0 10px 2px;
+  background-color: #1C1C1C80;
+  border-radius: 50%;
+}
+
+.editors-picks {
+  margin-bottom: 75px;
+}
+.editrors-picks__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editrors-picks__title::after {
+  content: '';
+  display: block;
+  width: 20%;
+  height: 5px;
+  margin-top: 15px;
+  background-color: #1C1C1C;
+}
+
+.editors-picks__articles {
+  margin-top: 70px;
+}
+
+.editors-picks__article {
+  display: flex;
+  justify-content: space-between;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.editors-picks__article + .editors-picks__article {
+  margin-top: 70px;
+}
+
+.article__content {
+  max-width: 430px;
+}
+
+.article__title {
+  margin-bottom: 12px;
+}
+
+.article__content-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.article__date::before {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  margin: 0 10px 2px;
+  background-color: #1C1C1C80;
+  border-radius: 50%;
+}
+
+.main-footer {
+  position: relative;
+}
+
+.footer-block__content {
+  top: 55px;
+  right: 80px;
+  bottom: 55px;
+}
+
+.footer-block__content-title {
+  margin-bottom: 12px;
+}
+
+.footer-block__content-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.footer-block__date::before {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  margin: 0 10px 2px;
+  background-color: #1C1C1C80;
+  border-radius: 50%;
+}

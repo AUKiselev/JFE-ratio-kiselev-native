@@ -1,0 +1,24 @@
+.main-header {
+  display: flex;
+  align-items: center;
+}
+
+.main-header__logo-wrapper {
+  width: 180px;
+  height: 60px;
+  margin-right: 50px;
+}
+
+.main-header__logo {
+  width: 100%;
+  height: auto;
+}
+
+.main-header__menu-wrapper {
+  padding: 0;
+}
+
+.main-header__menu-list {
+  display: flex;
+  column-gap: 20px;
+}
